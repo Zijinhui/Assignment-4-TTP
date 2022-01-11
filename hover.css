@@ -1,0 +1,126 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#hover {
+    font-weight: bold;
+    color:blue;
+    font-size: 60px;
+    margin-top: 350px;
+}
+
+/*
+Button Page
+*/
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 300px
+}
+
+button {
+    font-size: 50px;
+}
+
+#text {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color:dodgerblue;
+}
+#left-btn {
+    margin-left: 150px;
+}
+#right-btn {
+    margin-right: 150px;
+}
+
+nav {
+    text-align: center;
+    background-color:mediumslateblue;
+    height: 50px;
+    padding: 20px;
+
+}
+
+nav > a {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px; 
+}
+
+/*
+Form Page
+*/
+h1 {
+    text-align: center;
+    margin-top: 150px;
+    
+}
+
+.form {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    
+}
+
+form {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 30px;
+    justify-content: space-between;
+}
+.email {
+    margin-left: 50px;
+}
+.password {
+    margin-left: 6px;
+}
+
+input {
+    font-size: 30px;
+}
+
+#submit-btn {
+    margin-top: 35px;
+    font-size: 35px;
+
+    background-color: #c2fbd7;
+    border-radius: 50px;
+    border-width: 0;
+    box-shadow: rgba(25,25,25,.04)0 0 1px 0, rgba(0, 0,0,.1)0 3px 4px 0;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial,sans-serif;
+    font-size: 1em;
+    height: 50px;
+    padding: 0 25px;
+    transition: all 200ms;
+
+}
+:hover {
+    background-color: #afe6c3;
+    transform: scale(1.05);
+}
+
+#notification {
+    color:green;
+    text-align: center;
+}
+/*
+Sphere
+*/
+#sphere-main {
+    text-align: center;
+}
+#enter {
+    position: relative;
+    left: 47%;
+    margin-top: 40px;
+    border-radius: 20px;
+}
